@@ -1,0 +1,19 @@
+#Create a script called MyPhonebook.py The script is required to do the following:
+#Define a dictionary consisting of five business names and their associated phone numbers. The business name should be used as the key.
+
+phonebook = {'Noroff': '38 00 00 00' ,'Playstation': '56 99 93 10' , 'Apple': '23 00 00 00' , 'IBM':'49 00 00 00', 'DELL':'99 00 00 00'}
+user_global_search = input('Enter a firm: ')
+if user_global_search in phonebook:
+    print(phonebook[user_global_search])
+
+
+#Request the name and number of another business from the user and add it to the dictionary.
+#Ask the user to type in the name of a business that is in the list. Display the result to the user.
+#Display the entire dictionary (names and phone numbers).
+print(phonebook)
+#Display only the business names (no phone numbers).
+print(phonebook.keys())
+print(phonebook.values())
+#Keys display names
+#Values display numbers
+
